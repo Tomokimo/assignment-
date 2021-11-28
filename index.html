@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+    <head>
+        <!--
+            headタグの情報は基本的に画面に表示されないもの
+            <meta 属性="属性値">
+        -->
+        <meta charset="utf-8"><!--文字化け防止の記述-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" /><!--Internet Explorer用の設定-->
+        <meta name="viewport" content="width=device-width,initial-scale=1" /><!--スマホ、タブレット表示へ対応したサイトを作るための設定-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>私のホームページです</title>
+        <!--同じファイルに保存しているcssのデータと繋げるコマンド-->
+        <link rel="stylesheet" href="/Users/moritomoki/Desktop/test/forhtml/style.css">
+    </head>
+    <body>
+        <!--このbody内のものが画面に出力される-->
+        <h1>課題置き場</h1>
+        <!--idとclassの違い　idは一つのhtml内で同じidを使うことができない-->
+        <p class="hello">月曜日</p>
+        <ul>
+            <li>精密機械プロジェクト</li>
+        </ul>
+        
+        <p class="hello">火曜日</p>
+             <ul>
+             <li>機械力学</li>
+             </ul>
+    <nav>
+        <p class="hello">水曜日</p>
+        <ul>
+            <li><a href="zail2.html">材料力学Ⅱ</a></li>
+            <li><a href="electro.html">電子回路</a></li>
+        </ul>
+    </nav>
+
+    <nav>
+        <p class="hello">木曜日</p>
+        <ul>
+            <li><a href="cpro.html">計算工学</a></li>
+            <li><a href="math4.html">応用数学Ⅳ</a></li>
+        </ul>
+    </nav>
+
+        <p class="hello">金曜日</p>
+    
+    <nav>
+        <p class="hello">土曜日</p>
+        <ul>
+            <li><a href="zailen.html">材料力学演習</a></li>
+            <li>応用数学Ⅰ</li>
+        </ul>
+    </nav>
+        <!--spanを使えば前後に改行されない。下のような時に便利。divを使うと前後に改行-->
+        <p>これは<span class="aka">使用禁止</span>です！</p>
+        <!--imgタグは書き方特殊　終了タグは使わない。altのところは画像が表示されなかった時に表示する文-->
+        <img src="IMG_2427.jpeg" alt="">
+        <a href="https://www.sejuku.net/blog/">解説していたブログはこちら</a>
+        <!--
+            <h>はheadingの意味で見出しのこと
+            サイズはh1〜h6まである
+            h1が一番デカかった
+            h1>h6
+        -->
+    </body>
+</html>
